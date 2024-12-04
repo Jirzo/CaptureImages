@@ -1,4 +1,4 @@
-﻿# Image Capture with OpenCV
+# Image Capture with OpenCV
 
 This project allows capturing images from a connected camera using OpenCV, with the functionality to label the captured images to create a dataset. The images are saved in directories corresponding to different classes, and the text in the window informs the user about the program's status.
 
@@ -8,7 +8,6 @@ To run this project, make sure to have the following dependencies installed:
 
 - Python 3.x
 - OpenCV
-- scikit-learn
 - Pillow (PIL)
 - dotenv (for loading environment variables)
 
@@ -24,12 +23,15 @@ To run this project, make sure to have the following dependencies installed:
 
     ```bash
     pipenv shell
+    
+Once you have activated the environment select the interpreter with the name of the environment
 
-1. If you don't have pipenv installed yet, you can install it with:
+4. If you don't have pipenv installed yet, you can install it with:
 
     ```bash
     pip install pipenv
     
+
 
 ## Usage
 
