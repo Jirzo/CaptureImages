@@ -10,7 +10,7 @@ load_dotenv()
 font_path = './fonts/Roboto-Regular.ttf'  # Ruta a la fuente personalizada
 font_size = 28  # Tamaño de la fuente
 DATA_DIR = './data'  # Carpeta para almacenar las imágenes
-dataset_size = 800  # Número de imágenes por clase
+dataset_size = 833  # Número de imágenes por clase
 alphabet = list("ABCDEFGHIJKLMNOPQRSTUVWXYZ")  # Letras del alfabeto
 
 # Crear directorio base si no existe
